@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>reiky Story</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="iky.css">
+</head>
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Our Story</h1>
+      <p>A place where our memories live forever</p>
+      <button onclick="scrollToStory()">Explore Our Story</button>
+    </div>
+  </section>
+
+ 
+
+  </div>
+</section>
+<section class="timeline">
+  <h2>Our Journey</h2>
+
+  <div class="timeline-item">
+    <span class="date">04 april 2024</span>
+    <h3>First Chat</h3>
+    <p>
+      Dari satu pesan sederhana, semuanya dimulai.
+      Kami tidak tahu, tapi hari itu mengubah segalanya.
+    </p>
+  </div>
+
+  <div class="timeline-item">
+    <span class="date">31 dec 2025</span>
+    <h3>First Date</h3>
+    <p>
+      Canggung, gugup, tapi penuh tawa.
+      Sejak hari itu, rasanya ingin selalu bersama.
+    </p>
+  </div>
+
+  <div class="timeline-item">
+    <span class="date">14 Feb 2024</span>
+    <h3>We Chose Each Other</h3>
+    <p>
+      Bukan karena sempurna,
+      tapi karena saling menerima.
+    </p>
+  </div>
+
+</section>
+<section class="gallery">
+  <h2>Our Memories</h2>
+
+  <div class="gallery-grid">
+    <img src="assets/7.jpg" alt="memory">
+    <img src="assets/3.jpg" alt="memory">
+    <img src="assets/4.jpg" alt="memory">
+    <img src="assets/6.jpg" alt="memory">
+  </div>
+</section>
+<section class="love-counter">
+  <p id="love-text">We’ve been together for</p>
+  <h2 id="time"></h2>
+  <span id="milestone"></span>
+</section>
+<section class="daily-love">
+  <p id="daily-note"></p>
+</section>
+<section class="memory-day">
+  <h3 id="memory-title"></h3>
+  <p id="memory-text"></p>
+</section>
+<section class="lux-gallery">
+  <h2>Memories</h2>
+
+<div class="gallery-grid">
+  <img src="assets/2.jpg" onclick="openPopup(this)">
+  <img src="assets/3.jpg" onclick="openPopup(this)">
+  <img src="assets/4.jpg" onclick="openPopup(this)">
+  <img src="assets/5.jpg" onclick="openPopup(this)">
+</div>
+
+</section>
+
+  
+</section>
+
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+  <img src="" alt="preview">
+</div>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Made with 🤍 by Us</p>
+  </footer>
+
+  <!-- JS -->
+
+<!-- MUSIC -->
+<audio id="bg-music" loop>
+  <source src="assets/music/love.mp3" type="audio/mpeg">
+</audio>
+
+  <!-- POPUP GALLERY -->
+<div class="popup" id="popup">
+  <span class="close" onclick="closePopup()">×</span>
+  <img id="popup-img">
+</div>
+ <!-- ABOUT -->
+  <section class="about" id="story">
+  <div class="about-container">
+    
+    <img src="assets/1.jpg" alt="Us">
+
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>
+        Kami bukan sempurna,  
+        tapi kami saling memilih setiap hari.
+      </p>
+    </div>
+    <button id="music-btn">🔈 Play Music</button>
+  <script src="iky.js"></script>
+  <div class="noise"></div>
+</body>
+</html>
+
